@@ -1,0 +1,14 @@
+MoNoise commit 2bbe8b6 is used:
+https://bitbucket.org/robvanderg/monoise
+
+> git clone https://robvanderg@bitbucket.org/robvanderg/monoise.git
+> cd monoise
+> git reset --hard 2bbe8b6
+
+Commands used to obtain normalization for datasets:
+> ./tmp/bin/binary -m TR -i enData/chenli -r working/chenliBigCaps -C
+> ./tmp/bin/binary -m RU -i ~/projects/cool-repo/data/1.dev.tokens -r working/chenliBigCaps -C > ~/projects/cool-repo/data/1.dev.norm.tokens
+> ./tmp/bin/binary -m RU -i ~/projects/cool-repo/data/train_pos.tokens -r working/chenliBigCaps -C > ~/projects/cool-repo/data/train.norm.tokens
+> ./tmp/bin/binary -m RU -i ~/projects/cool-repo/data/1.dev.tokens -r working/chenliBigCaps -C -u > ~/projects/cool-repo/data/1.dev.normUnks.tokens
+> ./tmp/bin/binary -m RU -i ~/projects/cool-repo/data/train_pos.tokens -r working/chenliBigCaps -C -u > ~/projects/cool-repo/data/train.normUnks.tokens
+
