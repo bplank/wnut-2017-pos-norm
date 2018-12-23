@@ -32,7 +32,6 @@ Python 3.5.2 :: Anaconda 2.5.0 (64-bit)
 ### Data adaptations
 We reversed some of the data pre-processing from the data as released by Chen Li (http://www.hlt.utdallas.edu/~chenli/normalization_pos/)
 
-notes:
 diffs in owoputi Testset1: 
 * first removed empty words with G tag (grep JUNKIE to find the sentence)
 * reconstructed question marks using filter.py
@@ -42,5 +41,5 @@ diffs in lexnorm Testset2"
 * 1 vs 1.2 vs chenli version 
 
 ### Reproducability
-It is rather difficult to reproduce our results with repository, an updated version is available at <https://bitbucket.org/robvanderg/chapter6>
+It is rather difficult to reproduce our results with this repository, an updated version is available at <https://bitbucket.org/robvanderg/chapter6>
 
